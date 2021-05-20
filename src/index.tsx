@@ -17,7 +17,7 @@ createServer({
           amount: "2.22",
           type: "deposit",
           category: "category teste",
-          createdAt: "21/07/2021"
+          createdAt: new Date('2021-02-12 00:00:00')
         }
       ]
     })
