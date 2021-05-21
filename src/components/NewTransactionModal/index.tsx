@@ -32,6 +32,10 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
             type
         });
 
+        setType('deposit');
+        setTitle('');
+        setAmount(0);
+        setCategory('');
         onRequestClose();
     }
 
