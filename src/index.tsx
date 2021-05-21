@@ -14,8 +14,8 @@ createServer({
         {
           id: 1,
           title: "teste",
-          amount: "2.22",
-          type: "deposit",
+          amount: 2.22,
+          type: "withdraw",
           category: "category teste",
           createdAt: new Date('2021-02-12 00:00:00')
         }
